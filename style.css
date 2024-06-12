@@ -185,6 +185,13 @@ main {
   background-color: #96B6C5;
 }
 
+.card:nth-child(7) .card-screenshot{
+  background-color: #BEADFA;
+}
+.card:nth-child(8) .card-screenshot{
+  background-color: #96B6C5;
+}
+
 footer {
   min-height: 400px;
   flex-shrink: 0;
