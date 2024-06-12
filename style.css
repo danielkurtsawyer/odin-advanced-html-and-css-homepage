@@ -41,7 +41,6 @@ header {
   min-height: 300px;
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 3px 3px 6px var(--shadow-color);
   border-radius: 5px;
 }
 
@@ -70,6 +69,7 @@ header {
   grid-template-rows: 50px 1fr 40px;
   padding: 20px 40px;
   border-radius: 5px;
+  box-shadow: 3px 3px 6px var(--shadow-color);
 }
 
 .about div, .about h1{
@@ -237,4 +237,43 @@ footer {
   display: flex;
   gap: 20px;
   justify-content: start;
+}
+
+@media (max-width: 1000px){
+  .about-links{
+    display: none;
+  }
+}
+
+@media (max-width: 500px){
+  header, main, footer {
+    padding: 20px;
+  }
+  .header-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr;
+    row-gap: 20px;
+  }
+  .headshot{
+    transform: scale(1);
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 1fr;
+  }
+
+  .footer-headshot {
+    height: 200px;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+
 }
