@@ -10,3 +10,5 @@ I enjoyed this project and I find the work flow to be natural. I started this pr
 The only animations I ended up using for this project were hover animations that scaled up the element when the cursor was over any of the link images. 
 
 A live demo of this site can be found here: https://danielkurtsawyer.github.io/odin-advanced-html-and-css-homepage/
+
+Make sure to resize the screen to see the responsiveness in action!
